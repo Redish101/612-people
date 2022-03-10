@@ -15,8 +15,7 @@ jobs:
           node-version: 10.23.0
       - name: Build
         run: |
-          npm install
-          npm audit fix
+          npm install gitbook-cli
           gitbook install
           npm build
 
