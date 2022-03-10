@@ -13,9 +13,10 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           node-version: 10.23.0
+          cache: yarn
       - name: Build
         run: |
-          npm install -g gitbook-cli
+          yarn global add gitbook-cli
           gitbook install
           gitbook build
 
