@@ -2,5 +2,9 @@
     "title": "612人物志",
     "author": "612开源社区",
     "pageNumbers": true,
-    "language": "zh-hans"
+    "language": "zh-hans",
+    "plugins": [
+        "back-to-top-button",
+        "expandable-chapters"
+   ]
 }
