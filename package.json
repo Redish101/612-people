@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "gitbook serve",
-    "install": "npm install -g gitbook-cli && gitbook install",
+    "install": "bash install.sh",
     "build": "gitbook build"
   },
   "author": "612-community",
